@@ -1,0 +1,117 @@
+body {
+    background-color: #fff;
+
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+}
+
+.one__title {
+    color: blueviolet;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+
+.one__txt {
+    color: gray;
+    margin-bottom: 100px;
+    margin-top: 0px;
+}
+
+.btnC {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0px;
+}
+
+.btn {
+    background-color: #fff;
+    border: none;
+    font-size: 30px;
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+
+.one__1 {
+    color: red;
+}
+
+.one__2 {
+    color: green;
+}
+
+.one__3 {
+    color: blueviolet;
+}
+
+
+
+
+.two__title {
+    color: red;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+
+.tri__title {
+    color: green;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+
+.four__title {
+    color: orange;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+
+.five__title {
+    color: blue;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+
+.none {
+    display: none;
+}
+
+.won {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+
+}
+.won__title {
+    color: #fff;
+    font-size: 40px;
+    width: 250px;
+}
+
+span {
+    color: rgb(246, 238, 1);
+}
+
+.massage {
+
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
