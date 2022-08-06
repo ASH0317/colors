@@ -17,14 +17,9 @@ document.addEventListener('click', function (e) {
                 document.querySelector('.four').classList.remove('none');
             } else if (count == 3) {
                 count += 1;
-                document.querySelector('.tri').classList.add('none');
-                document.querySelector('.four').classList.remove('none');
-            } else if (count == 4) {
-                count += 1;
                 document.querySelector('.four').classList.add('none');
                 document.querySelector('.five').classList.remove('none');
-            }
-            else if (count == 5) {
+            } else if (count == 4) {
                 count += 1;
                 document.querySelector('.five').classList.add('none');
                 document.querySelector('.won').classList.remove('none');
